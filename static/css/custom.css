@@ -1,0 +1,176 @@
+/* UTILS */
+.btn-brush-primary {
+  min-width: 220px;
+  background: url("../image/brush-stroke-2.png") center center no-repeat;
+  background-size: cover;
+  border: none;
+  border-radius: 0;
+}
+
+.btn-brush-secondary {
+  min-width: 220px;
+  background: url("../image/brush-stroke-1.png") center center no-repeat;
+  background-size: cover;
+  border: none;
+  border-radius: 0;
+}
+
+.title-stroke-1 {
+  min-width: 220px;
+  background: url("../image/brush-stroke-3.png") center center no-repeat;
+  background-size: cover;
+  border: none;
+  border-radius: 0;
+  padding: 30px 20px;
+}
+
+.title-stroke-2 {
+  min-width: 220px;
+  background: url("../image/brush-stroke-5.png") center center no-repeat;
+  background-size: cover;
+  border: none;
+  border-radius: 0;
+  padding: 20px 80px;
+}
+
+.title-stroke-3 {
+  min-width: 220px;
+  background: url("../image/brush-stroke-6.png") center center no-repeat;
+  background-size: cover;
+  border: none;
+  border-radius: 0;
+  padding: 20px 80px;
+}
+
+.title-stroke-4 {
+  min-width: 220px;
+  background: url("../image/brush-stroke-7.png") center center no-repeat;
+  background-size: cover;
+  border: none;
+  border-radius: 0;
+  padding: 30px 50px;
+}
+
+.title-stroke-5 {
+  min-width: 220px;
+  background: url("../image/brush-stroke-8.png") center center no-repeat;
+  background-size: cover;
+  border: none;
+  border-radius: 0;
+  padding: 30px 30px;
+}
+
+.title-stroke-6 {
+  min-width: 220px;
+  background: url("../image/brush-stroke-9.png") center center no-repeat;
+  background-size: cover;
+  border: none;
+  border-radius: 0;
+  padding: 40px 80px;
+}
+
+.title-stroke-6 {
+  min-width: 220px;
+  background: url("../image/brush-stroke-10.png") center center no-repeat;
+  background-size: cover;
+  border: none;
+  border-radius: 0;
+  padding: 40px 80px;
+}
+
+/* HERO SECTION */
+.banner-caption img {
+  max-height: 500px;
+}
+
+.roadmap-year-s2,
+.roadmap-date {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.animated {
+  visibility: visible;
+}
+
+.ul-roadmap li {
+  margin-bottom: 0.5rem;
+}
+
+#how-it-works .title {
+  margin-bottom: 0;
+}
+
+.sub-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+#fp-nav ul li a span {
+  background: #000 !important;
+}
+
+#charity img {
+  border-radius: 15px;
+}
+
+@media (min-width: 576px) {
+  .title-stroke-1 {
+    padding: 50px 20px;
+  }
+  .title-stroke-2 {
+    padding: 50px 20px;
+  }
+  .title-stroke-3 {
+    padding: 40px 80px;
+  }
+  .title-stroke-5 {
+    padding: 50px 30px;
+  }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+  .title-stroke-1 {
+    padding: 35px 20px;
+  }
+  .title-stroke-2 {
+    padding: 35px 20px;
+  }
+  .title-stroke-3 {
+    padding: 30px 80px;
+  }
+
+  .title-stroke-5 {
+    padding: 30px 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1600px) {
+}
+
+.neon-button {
+  color: #fff;
+  border: 6px solid #fff;
+  border-radius: 15px;
+  padding: 15px 25px;
+  font-size: 1rem;
+  letter-spacing: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  filter: drop-shadow(0 0 15px #fff) drop-shadow(0 0 50px #fff) contrast(2)
+    brightness(2);
+  transition: 0.5s;
+}
+
+.neon-button:hover {
+  color: black;
+  background-color: #fff;
+  filter: drop-shadow(0 0 20px #fff) contrast(2) brightness(2);
+}
