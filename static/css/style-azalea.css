@@ -148,7 +148,7 @@
 html,
 body {
   font-family: "Roboto", sans-serif;
-  color: #305082;
+/*  color: #305082; */
   font-size: 14px;
   line-height: 1.6;
   font-weight: 400;
@@ -14450,13 +14450,14 @@ hr + .nk-block {
 @media (min-width: 576px) {
   .roadmap-wrap-ovl-right {
     max-width: none;
-    margin-right: -200px;
+    margin-right: -100px;
   }
   .roadmap-wrap-ovl-right:after {
-    width: 280px;
+/*    width: 280px; */
+	
   }
   .roadmap-wrap-ovl-right .owl-nav {
-    margin-right: 190px;
+    margin-right: 170px;
   }
 }
 
